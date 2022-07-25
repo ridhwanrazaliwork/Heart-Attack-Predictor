@@ -185,12 +185,13 @@ cr = classification_report(y_true,y_pred)
 
 print(cr)
 # %% GridsearchCV
+# So best pipeline is for standard scaler and logistic regression model
+# Hence using GridSearchCV to find the best paramaters for the model
 pipeline_ss_rf = Pipeline([
                         ('Standard_Scaler', StandardScaler()),
                         ('RFC', RandomForestClassifier())])
 
-grid_param = [{'RFC__n_estimators': [25, 50, 100, 200, 400]
-          }] #Hyperparameters
+grid_param = [{'RFC__n_estimators': [25, 50, 100, 200, 400]}] #Hyperparameters
 
 grid_search = GridSearchCV(pipeline_ss_rf, param_grid=grid_param,cv=5,
             verbose=1, n_jobs=-1)
