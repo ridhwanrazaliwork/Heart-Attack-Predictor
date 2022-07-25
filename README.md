@@ -1,8 +1,4 @@
 # Heart Attack Predictor Application
-# Background
-Clinicians think that preventing heart attacks is always preferable to treating them. After extensive research, scientists and clinicians found that factors such as the patient's age, gender, exercise-induced angina, number of major blood vessels, indication of chest pain, resting blood pressure, cholesterol level, fasting blood sugar, resting electrocardiographic results, and maximum heart rate achieved can all be used to predict the likelihood of having a heart attack.
-
-Therefore, this app's goal is to estimate the likelihood that a user may experience a heart attack.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
@@ -11,7 +7,12 @@ Therefore, this app's goal is to estimate the likelihood that a user may experie
 ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)
 
+# Background
+Clinicians think that preventing heart attacks is always preferable to treating them. After extensive research, scientists and clinicians found that factors such as the patient's age, gender, exercise-induced angina, number of major blood vessels, indication of chest pain, resting blood pressure, cholesterol level, fasting blood sugar, resting electrocardiographic results, and maximum heart rate achieved can all be used to predict the likelihood of having a heart attack.
 
+Therefore, this app's goal is to estimate the likelihood that a user may experience a heart attack.
+
+## Dataset information
 The dataset for training is around 213 and 91 for testing.
 
 # How to Run the Project
