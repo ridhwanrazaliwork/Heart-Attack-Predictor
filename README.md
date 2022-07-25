@@ -51,4 +51,4 @@ The dataset for training is around 213 and 91 for testing.
 - [Dataset source](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
 
 # Extra Notes
-## Check library/module use in the requirements.txt
+## Check library/module used in the requirements.txt
