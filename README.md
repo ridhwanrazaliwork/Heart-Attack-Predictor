@@ -49,3 +49,6 @@ The dataset for training is around 213 and 91 for testing.
 # Credits
 - [Markdown badges source](https://github.com/Ileriayo/markdown-badges)
 - [Dataset source](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
+
+# Extra Notes
+## Check library/module use in the requirements.txt
