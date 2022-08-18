@@ -18,7 +18,7 @@ with open(MODEL_PATH,'rb') as file:
 DATA = os.path.join(os.getcwd(), 'Data', 'heart.csv')
 df = pd.read_csv(DATA)
 
-IMAGE_PATH = os.path.join(os.getcwd(), 'src', 'logo.png')
+IMAGE_PATH = os.path.join(os.getcwd(), 'src', 'Logo.png')
 image = Image.open(IMAGE_PATH)
 st.image(image,use_column_width=True)
 """
